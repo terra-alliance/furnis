@@ -1,0 +1,34 @@
+{
+  "name": "demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@react-spring/three": "^9.7.1",
+    "@react-three/drei": "^9.57.0",
+    "@react-three/fiber": "^8.11.9",
+    "@react-three/flex": "^1.0.1",
+    "@use-gesture/react": "^10.2.24",
+    "@vercel/analytics": "^1.0.1",
+    "jotai": "^2.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-use-refs": "^1.0.1",
+    "three": "^0.150.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/three": "^0.149.0",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "r3f-perf": "^7.1.2",
+    "vite": "^4.1.0"
+  }
+}
