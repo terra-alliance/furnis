@@ -2,8 +2,11 @@
   "name": "demo",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://terra-alliance.github.io/furnis",
   "type": "module",
   "scripts": {
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -28,6 +31,7 @@
     "@types/react-dom": "^18.0.10",
     "@types/three": "^0.149.0",
     "@vitejs/plugin-react-swc": "^3.0.0",
+    "gh-pages": "^6.1.1",
     "r3f-perf": "^7.1.2",
     "vite": "^4.1.0"
   }
