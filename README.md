@@ -1,1 +1,1 @@
-https://furnis.vercel.app/
+https://terra-alliance.github.io/furnis
