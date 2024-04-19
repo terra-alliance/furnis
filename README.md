@@ -1,1 +1,1 @@
-https://terra-alliance.github.io/furnis/
+https://terra-alliance.github.io/furnisdemo/
